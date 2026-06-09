@@ -97,6 +97,7 @@ namespace Сапер
             {
                 ResetButton.Content = "You\nwin!";
                 EnableOrDisableField(false);
+                gameTimer.Stop();
             }
         }
 
@@ -107,6 +108,7 @@ namespace Сапер
         {
             BombCountLabel.Content = "000";
             TimeElapsedLabel.Content = "000";
+            flagsPlaced = 0;
             gameStarted = false;
             ResetButton.Content = "Reset";
             gameTimer.Stop();
