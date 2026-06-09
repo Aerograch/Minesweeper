@@ -12,9 +12,6 @@ using System.Windows.Shapes;
 
 namespace Сапер
 {
-    /// <summary>
-    /// Логика взаимодействия для Author.xaml
-    /// </summary>
     public partial class Author : Window
     {
         public Author()

@@ -452,6 +452,14 @@ namespace Сапер
             return amount;
         }
 
+        /// <summary>
+        /// Gets all direct neighbours
+        /// Table of neghours, 1 = included 0 = not included
+        /// 0 1 0
+        /// 1 0 1
+        /// 0 1 0
+        /// </summary>
+        /// <returns></returns>
         private List<Cell> GetDirectNeighbours()
         {
             List<Cell> output = new List<Cell>();
@@ -467,6 +475,14 @@ namespace Сапер
             return output;
         }
 
+        /// <summary>
+        /// Gets all direct and inderect neighbours
+        /// Table of neghours, 1 = included, 0 = not included
+        /// 1 1 1
+        /// 1 0 1
+        /// 1 1 1
+        /// </summary>
+        /// <returns></returns>
         private List<Cell> GetIndirectNeighbours()
         {
             List<Cell> output = new List<Cell>();

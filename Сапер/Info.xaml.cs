@@ -12,9 +12,6 @@ using System.Windows.Shapes;
 
 namespace Сапер
 {
-    /// <summary>
-    /// Логика взаимодействия для Info.xaml
-    /// </summary>
     public partial class Info : Window
     {
         public Info()
