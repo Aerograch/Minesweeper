@@ -143,8 +143,8 @@ namespace Сапер
                 int x, y;
                 do
                 {
-                    x = random.Next(0, 19);
-                    y = random.Next(0, 19);
+                    x = random.Next(0, 20);
+                    y = random.Next(0, 20);
                 }
                 while (cells[x][y].IsBomb);
                 cells[x][y].IsBomb = true;
@@ -272,7 +272,7 @@ namespace Сапер
             } 
         }
         public int X { get { return x; } }
-        public int Y { get { return x; } }
+        public int Y { get { return y; } }
 
         /// <summary>
         /// Processes all the neccesary conditions that occur on left click
